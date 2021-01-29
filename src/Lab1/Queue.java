@@ -1,6 +1,10 @@
 package Lab1;
 
-public class Queue {
-//asa
-	//Test Miigaa
+public interface Queue
+{
+   public boolean isEmpty();
+   public Object getFrontElement();
+   public Object getRearElement();
+   public void put(Object theObject);
+   public Object remove();
 }
